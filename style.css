@@ -1,0 +1,116 @@
+.main_form
+{
+    background-image:url('ok.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.Nav_index
+{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(to bottom, rgba(115, 135, 148, 0.1),rgba(78, 85, 89, 0.1)));
+}
+
+.Nav h1
+{
+    font-size: 15px
+}
+.navi_1
+{
+    margin-left: 40%;
+}
+
+.Register_form
+{
+    width: 30vw;
+    padding: 30px;
+    margin-left: 15%;
+    display: none;
+    margin-top: -5%;
+    border-radius: 10PX;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(152, 151, 165) 0%, rgb(69, 69, 81) 35%, rgb(166, 178, 181) 100%);
+    
+}
+.body{
+        width: 100%;
+    height: 100vh;
+    background-color: rgb(39, 97, 97); 
+}
+.login-text {
+    font-family: 'Montserrat', sans-serif; /* Recommended font */
+    font-size: 18px; /* Adjust font size as needed */
+    color: black; /* Black font color */
+}
+
+.Login_form
+{
+    width: 30vw;
+    padding: 20px;
+    margin-top: -5%;
+    margin-left: 15%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(152, 151, 165) 0%, rgb(69, 69, 81) 35%, rgb(166, 178, 181) 100%);
+    border-radius: 10PX;
+}
+
+.mb-3
+{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+label
+{
+    font-size: 15px;
+}
+.welcome-container {
+    margin-top: -5%;
+    text-align: center;
+    padding: 100px 0; /* Add vertical spacing for the content */
+}
+
+.welcome-heading {
+    font-size: 28px;
+    color: #fff;
+}
+
+.welcome-quote {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 20px; /* Add some spacing between the heading and quote */
+}
+.h_welcome
+{
+    font-size: larger;
+    color: blue;
+    margin-left: 38%;
+}
+.body_home
+{
+    background-image: url('Home.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;  
+}
+@media only screen and (max-width: 850px) {
+    .Login_form{
+      width:95vw;
+      margin: auto;
+    }
+  .update_form{
+    width:95vw;
+    margin: auto;
+  }
+  
+  .Register_form{
+    width:95vw;
+    margin: auto;
+  }
+     
+  }

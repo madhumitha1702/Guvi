@@ -1,0 +1,121 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile_body {
+    background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(244, 242, 242);
+    overflow-y: scroll;
+}
+
+/* Navigation bar */
+.Nav_all {
+    background-color: rgba(243, 240, 240, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.welcome-message {
+    color: rgb(16, 16, 16);
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 30px;
+}
+
+.navi_1 a {
+    text-decoration: none;
+    color: white; /* Change hyperlink color */
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    background-color: #3d0d99; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    margin-left: 200%; /* Add margin between buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.navi_1 a:hover {
+    background-color: #f7f6f8; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Profile top section */
+.profile_image {
+    text-align: center;
+    background: transparent;
+}
+
+#profile-im {
+    width: 30px;
+    height: auto;
+    border-radius: 30%;
+    margin: 0;
+}
+
+.profile_div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#subtitle {
+    color: white;
+    margin: 0;
+    padding: 2px 0;
+}
+.update_form {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgba(119, 119, 154, 0);
+    margin-top: 2%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+/* Customize the styles for form inputs and labels */
+.form-label {
+    color: white; /* Label text color */
+    font-size: 14px; /* Decrease label font size */
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 80%; /* Adjust input width */
+    margin-bottom: 10px; /* Decrease margin */
+    font-size: 14px; /* Decrease input font size */
+    padding: 2px; /* Adjust padding */
+}
+
+/* Customize the styles for the "Update" button */
+.btn-primary {
+    background-color: #3d0d99;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 12px; /* Adjust padding */
+    cursor: pointer;
+    width: 50%; /* Adjust button width */
+    text-align: center;
+    font-size: 14px; /* Decrease button font size */
+}
+
+.btn-primary:hover {
+    background-color: #120c49;
+}
+
+#but {
+    display: block;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,42 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+  #sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  #content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  #content h1 {
+    margin-top: 0;
+    color: #fff;
+  }
+a:link, a:visited {
+ 
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+   
+
